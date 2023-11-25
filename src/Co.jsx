@@ -9,6 +9,7 @@ const image5 = "https://imgs.search.brave.com/DpZom8Ij_lKJZ5Sf3_p1KFG4TP1t4YxdUl
 
 function Co() {
     const [index, setIndex] = useState(0);
+    
     let data = [
         {
             id : 1,
@@ -46,6 +47,7 @@ function Co() {
         }
         setIndex((next) => next + 1)
     }
+    
   return (
     <div className='con'>
         <h1 className='title'>Welcome to Image Carousel</h1>
