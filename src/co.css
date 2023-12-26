@@ -20,3 +20,15 @@
     color: #ffffff;
     border-radius: 8px;
 }
+.con img{
+    width: 84%;
+}
+@media only screen and (max-width: 790px){
+    .con{
+        width:94%;
+        padding: 0.5rem;
+    }
+    .con img{
+        width:80%
+    }
+}
